@@ -1,0 +1,1069 @@
+{
+ "comparisons": {
+  "lexnames": {
+   "original_groups": 41,
+   "our_groups": 4796,
+   "purity_ours_vs_original": 0.5269,
+   "purity_original_vs_ours": 0.0137,
+   "nmi": 0.3719,
+   "ari": 0.0029
+  },
+  "hypernym_depth2": {
+   "original_groups": 1375,
+   "our_groups": 4796,
+   "purity_ours_vs_original": 0.5359,
+   "purity_original_vs_ours": 0.0585,
+   "nmi": 0.3723,
+   "ari": 0.0013
+  },
+  "hypernym_depth3": {
+   "original_groups": 3155,
+   "our_groups": 4796,
+   "purity_ours_vs_original": 0.4876,
+   "purity_original_vs_ours": 0.1255,
+   "nmi": 0.4848,
+   "ari": 0.0016
+  }
+ },
+ "provenance": "rows selected by private workbench; clustering + metrics computed here from public WordNet zip + cached vectors",
+ "birch": {
+  "config": {
+   "min_similarity": 0.5,
+   "max_dispersion": 0.5,
+   "max_children": 16,
+   "candidate_count": 5,
+   "wave_size": 256
+  },
+  "groups": 4796,
+  "wall_seconds": 11.73,
+  "size_mean": 6.545,
+  "size_median": 6.0,
+  "size_p90": 14.0,
+  "size_max": 16,
+  "singleton_groups": 881,
+  "singleton_group_rate": 0.1837,
+  "singleton_item_rate": 0.0281,
+  "coherence_pair_weighted": 0.5035,
+  "coherence_per_cluster_median": 0.5018,
+  "coherence_per_cluster_p10": 0.4491,
+  "coherence_per_cluster_p90": 0.628,
+  "frac_clusters_coherence_lt_0.20": 0.0,
+  "member_to_centroid_mean": 0.7597
+ },
+ "heuristic_classification": {
+  "label": "HEURISTIC \u2014 mechanical rule + author hand-read of a small sample; not independent review",
+  "rule": "agreement: single lexname. cross_lexname_coherent: coherence>=0.30 and within-majority minus cross cosine <0.15. split_candidate: coherence<0.20 or gap>=0.15. else borderline.",
+  "cluster_counts": {
+   "cross_lexname_coherent": 2915,
+   "split_candidate": 475,
+   "agreement": 525
+  },
+  "member_counts": {
+   "cross_lexname_coherent": 24347,
+   "split_candidate": 3845,
+   "agreement": 2315
+  },
+  "examples": {
+   "cross_lexname_coherent": [
+    {
+     "cluster": 0,
+     "size": 13,
+     "coherence": 0.4625,
+     "lexnames": {
+      "verb.body": 2,
+      "noun.event": 2,
+      "noun.location": 1,
+      "noun.act": 2,
+      "verb.creation": 1,
+      "noun.process": 2,
+      "noun.state": 1,
+      "noun.attribute": 1,
+      "noun.communication": 1
+     },
+     "members": [
+      {
+       "synset_id": "00056644-v",
+       "lexname": "verb.body",
+       "text": "To give birth is a way to produce. To give birth is to cause to be born. It is also called deliver, bear and birth."
+      },
+      {
+       "synset_id": "00058651-v",
+       "lexname": "verb.body",
+       "text": "To calve is a way to give birth. To calve is to give birth to (a calf). It is also called have young."
+      },
+      {
+       "synset_id": "07334902-n",
+       "lexname": "noun.event",
+       "text": "A birth is a change. The birth is the event of being born. It is also called nativity, nascency and nascence."
+      },
+      {
+       "synset_id": "07335334-n",
+       "lexname": "noun.event",
+       "text": "A live birth is a birth. The live birth is the birth of a living fetus (regardless of the length of gestation)."
+      },
+      {
+       "synset_id": "08527371-n",
+       "lexname": "noun.location",
+       "text": "A birthplace is a topographic point. The birthplace is the place where someone was born. It is also called place of birth."
+      },
+      {
+       "synset_id": "00851153-n",
+       "lexname": "noun.act",
+       "text": "A reproduction is a sexual activity. The reproduction is the sexual activity of conceiving and bearing offspring. It is also called procreation, breeding and facts of life."
+      },
+      {
+       "synset_id": "01635501-v",
+       "lexname": "verb.creation",
+       "text": "To give birth is a way to create by mental act. To give birth is to create or produce an idea."
+      },
+      {
+       "synset_id": "13469507-n",
+       "lexname": "noun.process",
+       "text": "A childbirth is a parturition. The childbirth is the parturition process in human beings; having a baby; the process of giving birth to a child. It is also called childbearing, accouchement and vaginal birth."
+      },
+      {
+       "synset_id": "14488632-n",
+       "lexname": "noun.state",
+       "text": "A birth defect is a defect. The birth defect is a defect that is present at birth. It is also called congenital anomaly, congenital defect and congenital disorder."
+      },
+      {
+       "synset_id": "04932241-n",
+       "lexname": "noun.attribute",
+       "text": "A fetal age is an age. The fetal age is the age of an embryo counting from the time of fertilization. It is also called fertilization age and gestational age."
+      },
+      {
+       "synset_id": "00798428-n",
+       "lexname": "noun.act",
+       "text": "A baby is an undertaking. The baby is a project of personal concern to someone."
+      },
+      {
+       "synset_id": "06490123-n",
+       "lexname": "noun.communication",
+       "text": "A birth certificate is a certificate. The birth certificate is a copy of the official document giving details of a person's birth."
+      },
+      {
+       "synset_id": "13447764-n",
+       "lexname": "noun.process",
+       "text": "An active birth is a childbirth. The active birth is childbirth during which the mother is encouraged to be an active participant."
+      }
+     ]
+    },
+    {
+     "cluster": 1,
+     "size": 13,
+     "coherence": 0.4876,
+     "lexnames": {
+      "verb.communication": 3,
+      "verb.creation": 5,
+      "verb.change": 2,
+      "verb.emotion": 1,
+      "verb.perception": 1,
+      "verb.cognition": 1
+     },
+     "members": [
+      {
+       "synset_id": "00772482-v",
+       "lexname": "verb.communication",
+       "text": "To induce is a way to act. To induce is to cause to do; cause to act in a specified manner. It is also called stimulate, cause and have."
+      },
+      {
+       "synset_id": "01620211-v",
+       "lexname": "verb.creation",
+       "text": "To make is a way to induce. To make is to make or cause to be or to become. It is also called create."
+      },
+      {
+       "synset_id": "00795741-v",
+       "lexname": "verb.communication",
+       "text": "To provoke is a way to challenge. To provoke is to provide the needed stimulus for. It is also called stimulate."
+      },
+      {
+       "synset_id": "00349400-v",
+       "lexname": "verb.change",
+       "text": "To begin is a way to induce. To begin is to set in motion, cause to start. It is also called lead off, start and commence."
+      },
+      {
+       "synset_id": "01646466-v",
+       "lexname": "verb.creation",
+       "text": "To effect is a way to cause. To effect is to produce. It is also called effectuate and set up."
+      },
+      {
+       "synset_id": "01649143-v",
+       "lexname": "verb.creation",
+       "text": "To cause is a way to make. To cause is to give rise to; cause to happen or occur, not always intentionally. It is also called do and make."
+      },
+      {
+       "synset_id": "01765558-v",
+       "lexname": "verb.emotion",
+       "text": "To stimulate is a way to arouse. To stimulate is to stir the feelings, emotions, or peace of. It is also called shake, shake up and excite."
+      },
+      {
+       "synset_id": "02128368-v",
+       "lexname": "verb.perception",
+       "text": "To cause to be perceived is a way to exist. To cause to be perceived is to have perceptible qualities."
+      },
+      {
+       "synset_id": "00340548-v",
+       "lexname": "verb.change",
+       "text": "To arise is a way to happen. To arise is to result or issue. It is also called come up."
+      },
+      {
+       "synset_id": "00638103-v",
+       "lexname": "verb.cognition",
+       "text": "To induce is a way to reason. To induce is to reason or establish by induction."
+      },
+      {
+       "synset_id": "01647592-v",
+       "lexname": "verb.creation",
+       "text": "To induce is a way to generate. To induce is to cause to arise. It is also called bring on."
+      },
+      {
+       "synset_id": "01741298-v",
+       "lexname": "verb.creation",
+       "text": "To induce is a way to produce. To induce is to produce electric current by electrostatic or magnetic processes. It is also called induct."
+      },
+      {
+       "synset_id": "00778568-v",
+       "lexname": "verb.communication",
+       "text": "To charm is a way to persuade. To charm is to induce into action by using one's charm. It is also called influence and tempt."
+      }
+     ]
+    },
+    {
+     "cluster": 2,
+     "size": 12,
+     "coherence": 0.4688,
+     "lexnames": {
+      "noun.act": 3,
+      "verb.creation": 5,
+      "noun.person": 3,
+      "noun.cognition": 1
+     },
+     "members": [
+      {
+       "synset_id": "00910190-n",
+       "lexname": "noun.act",
+       "text": "A creation is an activity. The creation is the human act of creating. It is also called creative activity."
+      },
+      {
+       "synset_id": "00929076-n",
+       "lexname": "noun.act",
+       "text": "A creating by mental acts is a creation. The creating by mental acts is the act of creating something by thinking."
+      },
+      {
+       "synset_id": "01630392-v",
+       "lexname": "verb.creation",
+       "text": "To generate is a way to make. To generate is to produce, create. It is also called bring forth."
+      },
+      {
+       "synset_id": "01622373-v",
+       "lexname": "verb.creation",
+       "text": "To re-create is a way to make. To re-create is to produce or make another of. It is also called recreate."
+      },
+      {
+       "synset_id": "01643749-v",
+       "lexname": "verb.creation",
+       "text": "To create is a way to make. To create is to create by artistic means. It is also called make."
+      },
+      {
+       "synset_id": "01656555-v",
+       "lexname": "verb.creation",
+       "text": "To create from raw material is a way to make. To create from raw material is to make from scratch. It is also called create from raw stuff."
+      },
+      {
+       "synset_id": "09637345-n",
+       "lexname": "noun.person",
+       "text": "A creator is an actor. The creator is a person who grows or makes or invents things."
+      },
+      {
+       "synset_id": "10499603-n",
+       "lexname": "noun.person",
+       "text": "A producer is a creator. The producer is someone who finds financing for and supervises the making and presentation of a show (play or film or program or similar work)."
+      },
+      {
+       "synset_id": "10403515-n",
+       "lexname": "noun.person",
+       "text": "An originator is a creator. The originator is someone who creates new things. It is also called conceiver and mastermind."
+      },
+      {
+       "synset_id": "00943593-n",
+       "lexname": "noun.act",
+       "text": "A creating by removal is a creation. The creating by removal is the act of creating by removing something."
+      },
+      {
+       "synset_id": "05968652-n",
+       "lexname": "noun.cognition",
+       "text": "A creation science is a creationism. The creation science is an effort to give scientific support for the truth of the account of Creation given in the Book of Genesis."
+      },
+      {
+       "synset_id": "01761565-v",
+       "lexname": "verb.creation",
+       "text": "To construct is a way to create by mental act. To construct is to create by linking linguistic units."
+      }
+     ]
+    }
+   ],
+   "split_candidate": [
+    {
+     "cluster": 3,
+     "size": 10,
+     "coherence": 0.4503,
+     "lexnames": {
+      "verb.motion": 1,
+      "verb.social": 4,
+      "noun.act": 4,
+      "verb.consumption": 1
+     },
+     "members": [
+      {
+       "synset_id": "01835473-v",
+       "lexname": "verb.motion",
+       "text": "To move is a way to act. To move is to move so as to change position, perform a nontranslational motion."
+      },
+      {
+       "synset_id": "02376902-v",
+       "lexname": "verb.social",
+       "text": "To exert is a way to act. To exert is to make a great effort at a mental or physical task."
+      },
+      {
+       "synset_id": "02418610-v",
+       "lexname": "verb.social",
+       "text": "To work is a way to exert. To work is to exert oneself by doing mental or physical work for a purpose or out of necessity; work."
+      },
+      {
+       "synset_id": "02415985-v",
+       "lexname": "verb.social",
+       "text": "To work is a way to exert. To work is to be employed. It is also called do work."
+      },
+      {
+       "synset_id": "01220349-n",
+       "lexname": "noun.act",
+       "text": "An employment is an action. The employment is the act of giving someone a job. It is also called engagement."
+      },
+      {
+       "synset_id": "00576778-n",
+       "lexname": "noun.act",
+       "text": "A work is an activity. The work is activity directed toward making or doing something."
+      },
+      {
+       "synset_id": "01161188-v",
+       "lexname": "verb.consumption",
+       "text": "To use is a way to act. To use is to put into service; make work or employ for a particular purpose or for its inherent or natural purpose. It is also called utilize, utilise and apply."
+      },
+      {
+       "synset_id": "00582658-n",
+       "lexname": "noun.act",
+       "text": "A busywork is a work. The busywork is active work of little value. It is also called make-work."
+      },
+      {
+       "synset_id": "00583425-n",
+       "lexname": "noun.act",
+       "text": "An occupation is an activity. The occupation is the principal activity in your life that you do to earn money. It is also called business, job and line of work."
+      },
+      {
+       "synset_id": "02420961-v",
+       "lexname": "verb.social",
+       "text": "To busy is a way to work. To busy is to keep busy with. It is also called occupy."
+      }
+     ]
+    },
+    {
+     "cluster": 4,
+     "size": 14,
+     "coherence": 0.4793,
+     "lexnames": {
+      "verb.body": 4,
+      "verb.emotion": 3,
+      "verb.perception": 2,
+      "noun.state": 1,
+      "verb.social": 1,
+      "verb.cognition": 1,
+      "verb.contact": 2
+     },
+     "members": [
+      {
+       "synset_id": "00064841-v",
+       "lexname": "verb.body",
+       "text": "To suffer is a way to feel. To suffer is to be in pain. It is also called hurt and ache."
+      },
+      {
+       "synset_id": "00065141-v",
+       "lexname": "verb.body",
+       "text": "To have is a way to suffer. To have is to suffer from; be ill with."
+      },
+      {
+       "synset_id": "01775456-v",
+       "lexname": "verb.emotion",
+       "text": "To feel is a way to perceive. To feel is to undergo an emotional sensation or be in a particular state of mind. It is also called experience."
+      },
+      {
+       "synset_id": "00065410-v",
+       "lexname": "verb.body",
+       "text": "To suffer is a way to experience. To suffer is to undergo (as of injuries and illnesses). It is also called sustain, have and get."
+      },
+      {
+       "synset_id": "02112480-v",
+       "lexname": "verb.perception",
+       "text": "To experience is a way to undergo. To experience is to go through (mental or physical states or experiences). It is also called receive, have and get."
+      },
+      {
+       "synset_id": "01829179-v",
+       "lexname": "verb.emotion",
+       "text": "To desire is a way to feel. To desire is to feel or have a desire for; want strongly. It is also called want."
+      },
+      {
+       "synset_id": "00064414-v",
+       "lexname": "verb.body",
+       "text": "To hurt is a way to indispose. To hurt is to give trouble or pain to."
+      },
+      {
+       "synset_id": "14346126-n",
+       "lexname": "noun.state",
+       "text": "A pain is a symptom. The pain is a symptom of some physical hurt or disorder. It is also called hurting."
+      },
+      {
+       "synset_id": "02536754-v",
+       "lexname": "verb.social",
+       "text": "To take pains is a way to endeavor. To take pains is to try very hard to do something. It is also called be at pains."
+      },
+      {
+       "synset_id": "00692071-v",
+       "lexname": "verb.cognition",
+       "text": "To feel is a way to think. To feel is to have a feeling or perception about oneself in reaction to someone's behavior or attitude."
+      },
+      {
+       "synset_id": "01212242-v",
+       "lexname": "verb.contact",
+       "text": "To feel is a way to examine. To feel is to examine by touch. It is also called finger."
+      },
+      {
+       "synset_id": "01212716-v",
+       "lexname": "verb.contact",
+       "text": "To feel is a way to touch. To feel is to pass one's hands over the sexual organs of."
+      },
+      {
+       "synset_id": "01802793-v",
+       "lexname": "verb.emotion",
+       "text": "To try is a way to pain. To try is to give pain or trouble to."
+      },
+      {
+       "synset_id": "02115034-v",
+       "lexname": "verb.perception",
+       "text": "To feel is a way to experience. To feel is to undergo passive experience of."
+      }
+     ]
+    },
+    {
+     "cluster": 6,
+     "size": 10,
+     "coherence": 0.4457,
+     "lexnames": {
+      "verb.perception": 2,
+      "verb.cognition": 1,
+      "noun.cognition": 4,
+      "verb.emotion": 1,
+      "noun.act": 1,
+      "noun.state": 1
+     },
+     "members": [
+      {
+       "synset_id": "02110960-v",
+       "lexname": "verb.perception",
+       "text": "To perceive is a way to learn. To perceive is to to become aware of through the senses. It is also called comprehend."
+      },
+      {
+       "synset_id": "00692380-v",
+       "lexname": "verb.cognition",
+       "text": "To see is a way to think. To see is to deem to be. It is also called consider, reckon and view."
+      },
+      {
+       "synset_id": "05716379-n",
+       "lexname": "noun.cognition",
+       "text": "A perception is a basic cognitive process. The perception is the process of perceiving."
+      },
+      {
+       "synset_id": "02134989-v",
+       "lexname": "verb.perception",
+       "text": "To look is a way to act. To look is to perceive with attention; direct one's gaze towards; look."
+      },
+      {
+       "synset_id": "01771464-v",
+       "lexname": "verb.emotion",
+       "text": "To seethe is a way to feel. To seethe is to be in an agitated emotional state. It is also called boil."
+      },
+      {
+       "synset_id": "00878552-n",
+       "lexname": "noun.act",
+       "text": "A sensing is a sensory activity. The sensing is becoming aware of something via the senses. It is also called perception."
+      },
+      {
+       "synset_id": "05938922-n",
+       "lexname": "noun.cognition",
+       "text": "A percept is a representation. The percept is the representation of what is perceived; basic component in the formation of a concept. It is also called perception and perceptual experience."
+      },
+      {
+       "synset_id": "05941213-n",
+       "lexname": "noun.cognition",
+       "text": "A visual percept is a percept. The visual percept is a percept that arises from the eyes; an image in the visual system. It is also called visual image."
+      },
+      {
+       "synset_id": "05941982-n",
+       "lexname": "noun.cognition",
+       "text": "A view is a visual percept. The view is the visual percept of a region. It is also called aspect, prospect and scene."
+      },
+      {
+       "synset_id": "14122532-n",
+       "lexname": "noun.state",
+       "text": "A visual aphasia is an aphasia. The visual aphasia is inability to perceive written words. It is also called alexia and word blindness."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "shared_headword_candidates": {
+  "definition": "size>=4, one headword >=50% of members, >=3 lexnames",
+  "count": 720,
+  "top_examples": [
+   {
+    "cluster": 3150,
+    "size": 16,
+    "headword": "hold",
+    "headword_share": 0.81,
+    "distinct_lexnames": 13,
+    "coherence": 0.6217,
+    "members": [
+     {
+      "synset_id": "00738591-v",
+      "lexname": "verb.cognition",
+      "text": "To hold is a way to capture. To hold is to hold the attention of."
+     },
+     {
+      "synset_id": "01154219-v",
+      "lexname": "verb.competition",
+      "text": "To hold is a way to aim. To hold is to aim, point, or direct."
+     },
+     {
+      "synset_id": "01604155-v",
+      "lexname": "verb.contact",
+      "text": "To hold is a way to hold. To hold is to support or hold in a certain manner. It is also called carry and bear."
+     },
+     {
+      "synset_id": "01737358-v",
+      "lexname": "verb.creation",
+      "text": "To hold is a way to direct. To hold is to organize or be responsible for. It is also called throw, have and make."
+     },
+     {
+      "synset_id": "02146032-v",
+      "lexname": "verb.perception",
+      "text": "To hold up is a way to expose. To hold up is to hold up something as an example; hold up one's achievements for admiration."
+     },
+     {
+      "synset_id": "02282293-v",
+      "lexname": "verb.possession",
+      "text": "To hold up is a way to rob. To hold up is to rob at gunpoint or by means of some other threat. It is also called stick up."
+     },
+     {
+      "synset_id": "02456020-v",
+      "lexname": "verb.social",
+      "text": "To hold is a way to prevent. To hold is to keep from departing."
+     },
+     {
+      "synset_id": "02649658-v",
+      "lexname": "verb.stative",
+      "text": "To hold is a way to postpone. To hold is to stop dealing with."
+     },
+     {
+      "synset_id": "02689312-v",
+      "lexname": "verb.stative",
+      "text": "To hold is a way to continue. To hold is to remain in a certain state, position, or condition."
+     },
+     {
+      "synset_id": "02752150-v",
+      "lexname": "verb.stative",
+      "text": "To hold is a way to have. To hold is to have as a major characteristic."
+     },
+     {
+      "synset_id": "03530432-n",
+      "lexname": "noun.artifact",
+      "text": "A hold is a cell. The hold is a cell in a jail or prison. It is also called keep."
+     },
+     {
+      "synset_id": "03530552-n",
+      "lexname": "noun.artifact",
+      "text": "A hold is a stronghold. The hold is a stronghold."
+     },
+     {
+      "synset_id": "05204500-n",
+      "lexname": "noun.attribute",
+      "text": "A hold is a control. The hold is power by which something or someone is affected or dominated."
+     },
+     {
+      "synset_id": "08202287-n",
+      "lexname": "noun.group",
+      "text": "A holding company is a company. The holding company is a company with controlling shares in other companies."
+     },
+     {
+      "synset_id": "08518750-n",
+      "lexname": "noun.location",
+      "text": "A holding pattern is an air lane. The holding pattern is the flight path (usually circular) maintained by an aircraft that is awaiting permission to land."
+     },
+     {
+      "synset_id": "14035782-n",
+      "lexname": "noun.state",
+      "text": "A holding pattern is an inaction. The holding pattern is a state of inaction with no progress and no change."
+     }
+    ]
+   },
+   {
+    "cluster": 905,
+    "size": 16,
+    "headword": "place",
+    "headword_share": 0.62,
+    "distinct_lexnames": 11,
+    "coherence": 0.5489,
+    "members": [
+     {
+      "synset_id": "05082771-n",
+      "lexname": "noun.attribute",
+      "text": "A placement is a position. The placement is the spatial property of the way in which something is placed. It is also called arrangement."
+     },
+     {
+      "synset_id": "00040728-n",
+      "lexname": "noun.act",
+      "text": "A placement is a contact. The placement is contact established between applicants and prospective employees."
+     },
+     {
+      "synset_id": "00661447-v",
+      "lexname": "verb.cognition",
+      "text": "To place is a way to rank. To place is to take a place in a competition; often followed by an ordinal. It is also called come in and come out."
+     },
+     {
+      "synset_id": "00675367-v",
+      "lexname": "verb.cognition",
+      "text": "To place is a way to estimate. To place is to estimate. It is also called put and set."
+     },
+     {
+      "synset_id": "00747956-v",
+      "lexname": "verb.communication",
+      "text": "To place is a way to order. To place is to to arrange for."
+     },
+     {
+      "synset_id": "01051148-v",
+      "lexname": "verb.communication",
+      "text": "To place is a way to sing. To place is to sing a note with the correct pitch."
+     },
+     {
+      "synset_id": "01053255-n",
+      "lexname": "noun.act",
+      "text": "A placement is an activity. The placement is the act of putting something in a certain place. It is also called location, locating and position."
+     },
+     {
+      "synset_id": "01089102-v",
+      "lexname": "verb.competition",
+      "text": "To place is a way to race. To place is to finish second or better in a horse or dog race."
+     },
+     {
+      "synset_id": "02397904-v",
+      "lexname": "verb.social",
+      "text": "To place is a way to delegate. To place is to place somebody in a particular situation or location."
+     },
+     {
+      "synset_id": "02701737-v",
+      "lexname": "verb.stative",
+      "text": "To place is a way to situate. To place is to identify the location or place of. It is also called localize and localise."
+     },
+     {
+      "synset_id": "03959162-n",
+      "lexname": "noun.artifact",
+      "text": "A place mat is a mat. The place mat is a mat serving as table linen for an individual place setting."
+     },
+     {
+      "synset_id": "08371450-n",
+      "lexname": "noun.group",
+      "text": "A placement office is an administrative unit. The placement office is an office that finds suitable employment for applicants. It is also called placement center."
+     },
+     {
+      "synset_id": "13949819-n",
+      "lexname": "noun.state",
+      "text": "A place is a situation. The place is a particular situation. It is also called shoes."
+     },
+     {
+      "synset_id": "13970825-n",
+      "lexname": "noun.state",
+      "text": "A place is a social station. The place is proper or designated social situation. It is also called station."
+     },
+     {
+      "synset_id": "04313218-n",
+      "lexname": "noun.artifact",
+      "text": "A station is a facility. The station is a facility equipped with special equipment and personnel for a particular purpose."
+     },
+     {
+      "synset_id": "01992094-v",
+      "lexname": "verb.motion",
+      "text": "To space is a way to put. To space is to place at intervals."
+     }
+    ]
+   },
+   {
+    "cluster": 1603,
+    "size": 16,
+    "headword": "rock",
+    "headword_share": 0.62,
+    "distinct_lexnames": 11,
+    "coherence": 0.485,
+    "members": [
+     {
+      "synset_id": "07078755-n",
+      "lexname": "noun.communication",
+      "text": "A rock 'n' roll is a popular music. The rock 'n' roll is a genre of popular music originating in the 1950s; a blend of black rhythm-and-blues with white country-and-western. It is also called rock'n'roll, rock-and-roll and rock and roll."
+     },
+     {
+      "synset_id": "08267422-n",
+      "lexname": "noun.group",
+      "text": "A rock group is a dance band. The rock group is a band of musicians who play rock'n'roll music. It is also called rock band."
+     },
+     {
+      "synset_id": "10555438-n",
+      "lexname": "noun.person",
+      "text": "A rocker is a musician. The rocker is a performer or composer or fan of rock music. It is also called rock 'n' roll musician."
+     },
+     {
+      "synset_id": "92411554-n",
+      "lexname": "noun.food",
+      "text": "A rock sugar is a sugar. The rock sugar is sugar in the form of large crystals, often used for decoration."
+     },
+     {
+      "synset_id": "01879288-v",
+      "lexname": "verb.motion",
+      "text": "To rock is a way to move back and forth. To rock is to move back and forth or sideways. It is also called sway and shake."
+     },
+     {
+      "synset_id": "09468339-n",
+      "lexname": "noun.object",
+      "text": "A stepping stone is a rock. The stepping stone is a stone in a marsh or shallow water that can be stepped on in crossing."
+     },
+     {
+      "synset_id": "14720851-n",
+      "lexname": "noun.substance",
+      "text": "A road metal is a rock. The road metal is broken rock used for repairing or making roads."
+     },
+     {
+      "synset_id": "00348834-n",
+      "lexname": "noun.act",
+      "text": "A rock is a lurch. The rock is pitching dangerously to one side. It is also called careen, sway and tilt."
+     },
+     {
+      "synset_id": "01880021-v",
+      "lexname": "verb.motion",
+      "text": "To rock is a way to move. To rock is to cause to move back and forth. It is also called sway."
+     },
+     {
+      "synset_id": "02572262-n",
+      "lexname": "noun.animal",
+      "text": "A rock hind is a hind. The rock hind is found around rocky coasts or on reefs. It is also called Epinephelus adscensionis."
+     },
+     {
+      "synset_id": "04106948-n",
+      "lexname": "noun.artifact",
+      "text": "A rock garden is a garden. The rock garden is a garden featuring rocks; usually alpine plants. It is also called rockery."
+     },
+     {
+      "synset_id": "04107063-n",
+      "lexname": "noun.artifact",
+      "text": "A rocking chair is a chair. The rocking chair is a chair mounted on rockers. It is also called rocker."
+     },
+     {
+      "synset_id": "07079373-n",
+      "lexname": "noun.communication",
+      "text": "A progressive rock is a rock 'n' roll. The progressive rock is a style of rock music that emerged in the 1970s; associated with attempts to combine rock with jazz and other forms; intended for listening and not dancing. It is also called art rock."
+     },
+     {
+      "synset_id": "07079602-n",
+      "lexname": "noun.communication",
+      "text": "A psychedelic rock is a rock 'n' roll. The psychedelic rock is a musical style that emerged in the 1960s; rock music inspired by or related to drug-induced experience. It is also called acid rock."
+     },
+     {
+      "synset_id": "10554923-n",
+      "lexname": "noun.person",
+      "text": "A rock is a good person. The rock is (figurative) someone who is strong and stable and dependable."
+     },
+     {
+      "synset_id": "82316888-v",
+      "lexname": "verb.stative",
+      "text": "To rock is a way to excel. To rock is to be excellent or outstanding. It is also called rule, kick ass and slay."
+     }
+    ]
+   },
+   {
+    "cluster": 1773,
+    "size": 16,
+    "headword": "turn",
+    "headword_share": 0.81,
+    "distinct_lexnames": 11,
+    "coherence": 0.6499,
+    "members": [
+     {
+      "synset_id": "02094702-v",
+      "lexname": "verb.motion",
+      "text": "To turn is a way to move. To turn is to cause to move along an axis or into a new direction."
+     },
+     {
+      "synset_id": "00125649-v",
+      "lexname": "verb.change",
+      "text": "To turn is a way to change. To turn is to pass into a condition gradually, take on a specific property or attribute; become. It is also called grow."
+     },
+     {
+      "synset_id": "00196264-n",
+      "lexname": "noun.act",
+      "text": "A turning is a change. The turning is act of changing in practice or custom."
+     },
+     {
+      "synset_id": "00249273-v",
+      "lexname": "verb.change",
+      "text": "To turn is a way to senesce. To turn is to become officially one year older."
+     },
+     {
+      "synset_id": "01439155-v",
+      "lexname": "verb.contact",
+      "text": "To turn is a way to transmit. To turn is to let (something) fall or spill from a container. It is also called release."
+     },
+     {
+      "synset_id": "01587371-v",
+      "lexname": "verb.contact",
+      "text": "To turn is a way to shape. To turn is to shape by rotating on a lathe or cutting device or a wheel."
+     },
+     {
+      "synset_id": "02093687-v",
+      "lexname": "verb.motion",
+      "text": "To turn is a way to move. To turn is to cause to move around a center so as to show another side of. It is also called turn over."
+     },
+     {
+      "synset_id": "02094251-v",
+      "lexname": "verb.motion",
+      "text": "To turn is a way to move. To turn is to cause to move around or rotate."
+     },
+     {
+      "synset_id": "02216730-v",
+      "lexname": "verb.possession",
+      "text": "To turn is a way to get. To turn is to get by buying and selling."
+     },
+     {
+      "synset_id": "02568340-v",
+      "lexname": "verb.social",
+      "text": "To turn is a way to do. To turn is to accomplish by rotating."
+     },
+     {
+      "synset_id": "02633015-v",
+      "lexname": "verb.stative",
+      "text": "To turn is a way to change. To turn is to cause to change or turn into something different;assume new characteristics."
+     },
+     {
+      "synset_id": "07102837-n",
+      "lexname": "noun.communication",
+      "text": "A turn of phrase is an expressive style. The turn of phrase is a distinctive spoken or written expression. It is also called turn of expression."
+     },
+     {
+      "synset_id": "07437965-n",
+      "lexname": "noun.event",
+      "text": "A turn is a development. The turn is an unforeseen development. It is also called turn of events and twist."
+     },
+     {
+      "synset_id": "15281525-n",
+      "lexname": "noun.time",
+      "text": "A turn is a part. The turn is (sports) a division of a game during which one team is on the offensive. It is also called bout and round."
+     },
+     {
+      "synset_id": "05797813-n",
+      "lexname": "noun.cognition",
+      "text": "A reversal is a decision making. The reversal is a decision to reverse an earlier decision. It is also called change of mind, flip-flop and turnabout."
+     },
+     {
+      "synset_id": "07455579-n",
+      "lexname": "noun.event",
+      "text": "A rotation is a turning. The rotation is a single complete turn (axial or orbital). It is also called revolution and gyration."
+     }
+    ]
+   },
+   {
+    "cluster": 1899,
+    "size": 16,
+    "headword": "flow",
+    "headword_share": 0.5,
+    "distinct_lexnames": 11,
+    "coherence": 0.4921,
+    "members": [
+     {
+      "synset_id": "07420493-n",
+      "lexname": "noun.event",
+      "text": "A flow is a change of location. The flow is the motion characteristic of fluids (liquids or gases). It is also called flowing."
+     },
+     {
+      "synset_id": "09471510-n",
+      "lexname": "noun.object",
+      "text": "A stream is a body of water. The stream is a natural body of running water flowing on or under the earth. It is also called watercourse."
+     },
+     {
+      "synset_id": "07421201-n",
+      "lexname": "noun.event",
+      "text": "An airflow is a flow. The airflow is the flow of air. It is also called air flow and flow of air."
+     },
+     {
+      "synset_id": "08525470-n",
+      "lexname": "noun.location",
+      "text": "A fountainhead is a beginning. The fountainhead is the source of water from which a stream arises. It is also called headspring and head."
+     },
+     {
+      "synset_id": "11541700-n",
+      "lexname": "noun.phenomenon",
+      "text": "A turbulent flow is a flow. The turbulent flow is flow in which the velocity at any point varies erratically."
+     },
+     {
+      "synset_id": "11541837-n",
+      "lexname": "noun.phenomenon",
+      "text": "A sea is a turbulent flow. The sea is turbulent water with swells of considerable size."
+     },
+     {
+      "synset_id": "13503533-n",
+      "lexname": "noun.process",
+      "text": "A flow is a natural process. The flow is any uninterrupted stream or discharge."
+     },
+     {
+      "synset_id": "06122616-n",
+      "lexname": "noun.cognition",
+      "text": "A fluid mechanics is a mechanics. The fluid mechanics is study of the mechanics of fluids. It is also called hydraulics."
+     },
+     {
+      "synset_id": "00449966-v",
+      "lexname": "verb.change",
+      "text": "To flow away is a way to empty. To flow away is to flow off or away gradually. It is also called flow off."
+     },
+     {
+      "synset_id": "13501744-n",
+      "lexname": "noun.process",
+      "text": "A filling is a flow. The filling is flow into something (as a container)."
+     },
+     {
+      "synset_id": "02070438-v",
+      "lexname": "verb.motion",
+      "text": "To flow is a way to move. To flow is to move or progress freely as if in a stream. It is also called flux."
+     },
+     {
+      "synset_id": "02071617-v",
+      "lexname": "verb.motion",
+      "text": "To flow is a way to induce. To flow is to cause to flow."
+     },
+     {
+      "synset_id": "02749602-v",
+      "lexname": "verb.stative",
+      "text": "To flow is a way to exist. To flow is to be abundantly present."
+     },
+     {
+      "synset_id": "06594261-n",
+      "lexname": "noun.communication",
+      "text": "A flow chart is a multidimensional language. The flow chart is a diagram of the sequence of operations in a computer program or an accounting system. It is also called flowchart, flow diagram and flow sheet."
+     },
+     {
+      "synset_id": "15302716-n",
+      "lexname": "noun.time",
+      "text": "A flow is a rate. The flow is the amount of fluid that flows in a given time. It is also called flow rate and rate of flow."
+     },
+     {
+      "synset_id": "11443311-n",
+      "lexname": "noun.phenomenon",
+      "text": "A slipstream is a flow. The slipstream is the flow of air that is driven backwards by an aircraft propeller. It is also called airstream, race and backwash."
+     }
+    ]
+   },
+   {
+    "cluster": 3901,
+    "size": 16,
+    "headword": "touch",
+    "headword_share": 0.81,
+    "distinct_lexnames": 11,
+    "coherence": 0.624,
+    "members": [
+     {
+      "synset_id": "00139261-n",
+      "lexname": "noun.act",
+      "text": "A laying on is a contact. The laying on is the act of contacting something with your hand."
+     },
+     {
+      "synset_id": "01026772-v",
+      "lexname": "verb.communication",
+      "text": "To touch on is a way to mention. To touch on is to refer to or discuss briefly."
+     },
+     {
+      "synset_id": "01209469-v",
+      "lexname": "verb.contact",
+      "text": "To touch is a way to touch. To touch is to cause to be in brief contact with."
+     },
+     {
+      "synset_id": "01210147-v",
+      "lexname": "verb.contact",
+      "text": "To touch is a way to change. To touch is to tamper with. It is also called disturb."
+     },
+     {
+      "synset_id": "02131823-v",
+      "lexname": "verb.perception",
+      "text": "To touch is a way to perceive. To touch is to perceive via the tactile sense."
+     },
+     {
+      "synset_id": "02605322-v",
+      "lexname": "verb.social",
+      "text": "To touch is a way to manage. To touch is to deal with; usually used with a form of negation."
+     },
+     {
+      "synset_id": "04953937-n",
+      "lexname": "noun.attribute",
+      "text": "A touch is a tactile property. The touch is the feel of mechanical action."
+     },
+     {
+      "synset_id": "05650398-n",
+      "lexname": "noun.cognition",
+      "text": "A touch is an adeptness. The touch is deftness in handling matters."
+     },
+     {
+      "synset_id": "05662964-n",
+      "lexname": "noun.cognition",
+      "text": "A touch is a somatosense. The touch is the faculty by which external objects or forces are perceived through contact with the body (especially the hands). It is also called sense of touch, skin senses and touch modality."
+     },
+     {
+      "synset_id": "05730374-n",
+      "lexname": "noun.cognition",
+      "text": "A touch is a perception. The touch is the sensation produced by pressure receptors in the skin. It is also called touch sensation, tactual sensation and tactile sensation."
+     },
+     {
+      "synset_id": "07178814-n",
+      "lexname": "noun.communication",
+      "text": "A touch is a suggestion. The touch is a suggestion of some quality. It is also called trace and ghost."
+     },
+     {
+      "synset_id": "07424192-n",
+      "lexname": "noun.event",
+      "text": "A touch is a contact. The touch is the event of something coming in contact with the body. It is also called touching."
+     },
+     {
+      "synset_id": "13796315-n",
+      "lexname": "noun.quantity",
+      "text": "A touch is a small indefinite quantity. The touch is a slight but appreciable amount. It is also called hint, tinge and mite."
+     },
+     {
+      "synset_id": "14105668-n",
+      "lexname": "noun.state",
+      "text": "A touch is an attack. The touch is a slight attack of illness. It is also called spot."
+     },
+     {
+      "synset_id": "01209664-v",
+      "lexname": "verb.contact",
+      "text": "To toe is a way to touch. To toe is to touch with the toe."
+     },
+     {
+      "synset_id": "01292858-v",
+      "lexname": "verb.contact",
+      "text": "To attach is a way to touch. To attach is to be attached; be in contact with."
+     }
+    ]
+   }
+  ]
+ }
+}

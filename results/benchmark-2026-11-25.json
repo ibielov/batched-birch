@@ -1,0 +1,2140 @@
+{
+  "generated": "2026-11-25",
+  "arms": {
+    "syn-blobs-1000-d384__ours__w256": {
+      "arm": {
+        "dataset": "syn-blobs-1000-d384",
+        "impl": "ours",
+        "reps": 3,
+        "wave": 256
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "blobs",
+        "n": 1000,
+        "dim": 384,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.03,
+      "n": 1000,
+      "dim": 384,
+      "wall_s_reps": [
+        0.041,
+        0.049,
+        0.042
+      ],
+      "wall_s_median": 0.042,
+      "wall_s_iqr": 0.004,
+      "items_per_s_median": 23677.6,
+      "peak_rss_mb": 157.3,
+      "labels_sha16": "bcc6a32ad39abed9",
+      "reps_labels_identical": true,
+      "groups": 103,
+      "singleton_groups": 0,
+      "singleton_group_rate": 0.0,
+      "singleton_item_rate": 0.0,
+      "size_mean": 9.709,
+      "size_median": 10.0,
+      "size_p90": 16.0,
+      "size_max": 16,
+      "coherence_pair_weighted": 0.6147,
+      "member_to_centroid_mean": 0.8087,
+      "nmi_vs_gt": 0.9267,
+      "ari_vs_gt": 0.7119
+    },
+    "syn-blobs-1000-d384__ours__w256__workers2": {
+      "arm": {
+        "dataset": "syn-blobs-1000-d384",
+        "impl": "ours",
+        "reps": 3,
+        "wave": 256,
+        "workers": 2
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "blobs",
+        "n": 1000,
+        "dim": 384,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.02,
+      "n": 1000,
+      "dim": 384,
+      "wall_s_reps": [
+        0.038,
+        0.039,
+        0.038
+      ],
+      "wall_s_median": 0.038,
+      "wall_s_iqr": 0.0,
+      "items_per_s_median": 26214.4,
+      "peak_rss_mb": 158.3,
+      "labels_sha16": "bcc6a32ad39abed9",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 0.0,
+      "groups": 103,
+      "singleton_groups": 0,
+      "singleton_group_rate": 0.0,
+      "singleton_item_rate": 0.0,
+      "size_mean": 9.709,
+      "size_median": 10.0,
+      "size_p90": 16.0,
+      "size_max": 16,
+      "coherence_pair_weighted": 0.6147,
+      "member_to_centroid_mean": 0.8087,
+      "nmi_vs_gt": 0.9267,
+      "ari_vs_gt": 0.7119
+    },
+    "syn-blobs-1000-d384__ours__w256__workers4": {
+      "arm": {
+        "dataset": "syn-blobs-1000-d384",
+        "impl": "ours",
+        "reps": 3,
+        "wave": 256,
+        "workers": 4
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "blobs",
+        "n": 1000,
+        "dim": 384,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.02,
+      "n": 1000,
+      "dim": 384,
+      "wall_s_reps": [
+        0.042,
+        0.043,
+        0.044
+      ],
+      "wall_s_median": 0.043,
+      "wall_s_iqr": 0.001,
+      "items_per_s_median": 23452.7,
+      "peak_rss_mb": 159.3,
+      "labels_sha16": "bcc6a32ad39abed9",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 0.0,
+      "groups": 103,
+      "singleton_groups": 0,
+      "singleton_group_rate": 0.0,
+      "singleton_item_rate": 0.0,
+      "size_mean": 9.709,
+      "size_median": 10.0,
+      "size_p90": 16.0,
+      "size_max": 16,
+      "coherence_pair_weighted": 0.6147,
+      "member_to_centroid_mean": 0.8087,
+      "nmi_vs_gt": 0.9267,
+      "ari_vs_gt": 0.7119
+    },
+    "syn-blobs-1000-d384__sklearn-fit__t0.5": {
+      "arm": {
+        "dataset": "syn-blobs-1000-d384",
+        "impl": "sklearn-fit",
+        "reps": 3,
+        "threshold": 0.5
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "blobs",
+        "n": 1000,
+        "dim": 384,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.03,
+      "n": 1000,
+      "dim": 384,
+      "wall_s_reps": [
+        0.067,
+        0.067,
+        0.066
+      ],
+      "wall_s_median": 0.067,
+      "wall_s_iqr": 0.001,
+      "items_per_s_median": 14857.0,
+      "peak_rss_mb": 183.3,
+      "labels_sha16": "fe0b2837bea39448",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 0.021,
+      "groups": 901,
+      "singleton_groups": 840,
+      "singleton_group_rate": 0.9323,
+      "singleton_item_rate": 0.84,
+      "size_mean": 1.11,
+      "size_median": 1.0,
+      "size_p90": 1.0,
+      "size_max": 3,
+      "coherence_pair_weighted": 0.6297,
+      "member_to_centroid_mean": 0.9803,
+      "nmi_vs_gt": 0.7338,
+      "ari_vs_gt": 0.0279
+    },
+    "syn-blobs-1000-d384__sklearn-partial__t0.5": {
+      "arm": {
+        "dataset": "syn-blobs-1000-d384",
+        "impl": "sklearn-partial",
+        "reps": 3,
+        "threshold": 0.5
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "blobs",
+        "n": 1000,
+        "dim": 384,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.04,
+      "n": 1000,
+      "dim": 384,
+      "wall_s_reps": [
+        0.062,
+        0.064,
+        0.061
+      ],
+      "wall_s_median": 0.062,
+      "wall_s_iqr": 0.001,
+      "items_per_s_median": 16245.4,
+      "peak_rss_mb": 188.8,
+      "labels_sha16": "fe0b2837bea39448",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 0.021,
+      "groups": 901,
+      "singleton_groups": 840,
+      "singleton_group_rate": 0.9323,
+      "singleton_item_rate": 0.84,
+      "size_mean": 1.11,
+      "size_median": 1.0,
+      "size_p90": 1.0,
+      "size_max": 3,
+      "coherence_pair_weighted": 0.6297,
+      "member_to_centroid_mean": 0.9803,
+      "nmi_vs_gt": 0.7338,
+      "ari_vs_gt": 0.0279
+    },
+    "syn-blobs-10000-d128__ours__w256": {
+      "arm": {
+        "dataset": "syn-blobs-10000-d128",
+        "impl": "ours",
+        "reps": 3,
+        "wave": 256
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "blobs",
+        "n": 10000,
+        "dim": 128,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.05,
+      "n": 10000,
+      "dim": 128,
+      "wall_s_reps": [
+        0.412,
+        0.452,
+        0.384
+      ],
+      "wall_s_median": 0.412,
+      "wall_s_iqr": 0.034,
+      "items_per_s_median": 24281.0,
+      "peak_rss_mb": 212.5,
+      "labels_sha16": "707fd4d871609276",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 0.0,
+      "groups": 1108,
+      "singleton_groups": 187,
+      "singleton_group_rate": 0.1688,
+      "singleton_item_rate": 0.0187,
+      "size_mean": 9.025,
+      "size_median": 9.0,
+      "size_p90": 16.0,
+      "size_max": 16,
+      "coherence_pair_weighted": 0.6234,
+      "member_to_centroid_mean": 0.8151,
+      "nmi_vs_gt": 0.7359,
+      "ari_vs_gt": 0.1159
+    },
+    "syn-blobs-10000-d128__sklearn-fit__t0.5": {
+      "arm": {
+        "dataset": "syn-blobs-10000-d128",
+        "impl": "sklearn-fit",
+        "reps": 3,
+        "threshold": 0.5
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "blobs",
+        "n": 10000,
+        "dim": 128,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.09,
+      "n": 10000,
+      "dim": 128,
+      "wall_s_reps": [
+        1.464,
+        1.449,
+        1.443
+      ],
+      "wall_s_median": 1.449,
+      "wall_s_iqr": 0.011,
+      "items_per_s_median": 6901.0,
+      "peak_rss_mb": 263.9,
+      "labels_sha16": "9851c2dcfa9e5d48",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 0.842,
+      "groups": 8939,
+      "singleton_groups": 8445,
+      "singleton_group_rate": 0.9447,
+      "singleton_item_rate": 0.8445,
+      "size_mean": 1.119,
+      "size_median": 1.0,
+      "size_p90": 1.0,
+      "size_max": 5,
+      "coherence_pair_weighted": 0.6694,
+      "member_to_centroid_mean": 0.9812,
+      "nmi_vs_gt": 0.6047,
+      "ari_vs_gt": 0.0037
+    },
+    "syn-blobs-10000-d128__sklearn-partial__t0.5": {
+      "arm": {
+        "dataset": "syn-blobs-10000-d128",
+        "impl": "sklearn-partial",
+        "reps": 3,
+        "threshold": 0.5
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "blobs",
+        "n": 10000,
+        "dim": 128,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.04,
+      "n": 10000,
+      "dim": 128,
+      "wall_s_reps": [
+        1.142,
+        1.088,
+        1.111
+      ],
+      "wall_s_median": 1.111,
+      "wall_s_iqr": 0.027,
+      "items_per_s_median": 9000.5,
+      "peak_rss_mb": 290.8,
+      "labels_sha16": "9851c2dcfa9e5d48",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 0.844,
+      "groups": 8939,
+      "singleton_groups": 8445,
+      "singleton_group_rate": 0.9447,
+      "singleton_item_rate": 0.8445,
+      "size_mean": 1.119,
+      "size_median": 1.0,
+      "size_p90": 1.0,
+      "size_max": 5,
+      "coherence_pair_weighted": 0.6694,
+      "member_to_centroid_mean": 0.9812,
+      "nmi_vs_gt": 0.6047,
+      "ari_vs_gt": 0.0037
+    },
+    "syn-blobs-10000-d384__ours__w1": {
+      "arm": {
+        "dataset": "syn-blobs-10000-d384",
+        "impl": "ours",
+        "reps": 1,
+        "wave": 1
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "blobs",
+        "n": 10000,
+        "dim": 384,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.23,
+      "n": 10000,
+      "dim": 384,
+      "wall_s_reps": [
+        45.772
+      ],
+      "wall_s_median": 45.772,
+      "wall_s_iqr": 0.0,
+      "items_per_s_median": 218.5,
+      "peak_rss_mb": 390.9,
+      "labels_sha16": "a6dc15de882698ce",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 0.002,
+      "groups": 6250,
+      "singleton_groups": 6000,
+      "singleton_group_rate": 0.96,
+      "singleton_item_rate": 0.6,
+      "size_mean": 1.6,
+      "size_median": 1.0,
+      "size_p90": 1.0,
+      "size_max": 16,
+      "coherence_pair_weighted": 0.6103,
+      "member_to_centroid_mean": 0.9187,
+      "nmi_vs_gt": 0.6513,
+      "ari_vs_gt": 0.0574
+    },
+    "syn-blobs-10000-d384__ours__w1024": {
+      "arm": {
+        "dataset": "syn-blobs-10000-d384",
+        "impl": "ours",
+        "reps": 3,
+        "wave": 1024
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "blobs",
+        "n": 10000,
+        "dim": 384,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.11,
+      "n": 10000,
+      "dim": 384,
+      "wall_s_reps": [
+        0.826,
+        0.86,
+        0.818
+      ],
+      "wall_s_median": 0.826,
+      "wall_s_iqr": 0.021,
+      "items_per_s_median": 12104.0,
+      "peak_rss_mb": 371.3,
+      "labels_sha16": "381a06c4c9093491",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 0.0,
+      "groups": 947,
+      "singleton_groups": 11,
+      "singleton_group_rate": 0.0116,
+      "singleton_item_rate": 0.0011,
+      "size_mean": 10.56,
+      "size_median": 11.0,
+      "size_p90": 16.0,
+      "size_max": 16,
+      "coherence_pair_weighted": 0.6174,
+      "member_to_centroid_mean": 0.8085,
+      "nmi_vs_gt": 0.7345,
+      "ari_vs_gt": 0.1087
+    },
+    "syn-blobs-10000-d384__ours__w256": {
+      "arm": {
+        "dataset": "syn-blobs-10000-d384",
+        "impl": "ours",
+        "reps": 3,
+        "wave": 256
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "blobs",
+        "n": 10000,
+        "dim": 384,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.22,
+      "n": 10000,
+      "dim": 384,
+      "wall_s_reps": [
+        0.813,
+        0.868,
+        0.803
+      ],
+      "wall_s_median": 0.813,
+      "wall_s_iqr": 0.033,
+      "items_per_s_median": 12305.5,
+      "peak_rss_mb": 282.3,
+      "labels_sha16": "3324139454409721",
+      "reps_labels_identical": true,
+      "groups": 1231,
+      "singleton_groups": 150,
+      "singleton_group_rate": 0.1219,
+      "singleton_item_rate": 0.015,
+      "size_mean": 8.123,
+      "size_median": 6.0,
+      "size_p90": 16.0,
+      "size_max": 16,
+      "coherence_pair_weighted": 0.6162,
+      "member_to_centroid_mean": 0.8139,
+      "nmi_vs_gt": 0.7286,
+      "ari_vs_gt": 0.1077
+    },
+    "syn-blobs-10000-d384__ours__w32": {
+      "arm": {
+        "dataset": "syn-blobs-10000-d384",
+        "impl": "ours",
+        "reps": 3,
+        "wave": 32
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "blobs",
+        "n": 10000,
+        "dim": 384,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.11,
+      "n": 10000,
+      "dim": 384,
+      "wall_s_reps": [
+        2.055,
+        2.026,
+        1.91
+      ],
+      "wall_s_median": 2.026,
+      "wall_s_iqr": 0.072,
+      "items_per_s_median": 4936.1,
+      "peak_rss_mb": 405.9,
+      "labels_sha16": "d2b8d62bb2a116cf",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 0.0,
+      "groups": 4540,
+      "singleton_groups": 3088,
+      "singleton_group_rate": 0.6802,
+      "singleton_item_rate": 0.3088,
+      "size_mean": 2.203,
+      "size_median": 1.0,
+      "size_p90": 3.0,
+      "size_max": 16,
+      "coherence_pair_weighted": 0.6113,
+      "member_to_centroid_mean": 0.8833,
+      "nmi_vs_gt": 0.6675,
+      "ari_vs_gt": 0.0643
+    },
+    "syn-blobs-10000-d384__sklearn-fit__t0.5": {
+      "arm": {
+        "dataset": "syn-blobs-10000-d384",
+        "impl": "sklearn-fit",
+        "reps": 3,
+        "threshold": 0.5
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "blobs",
+        "n": 10000,
+        "dim": 384,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.22,
+      "n": 10000,
+      "dim": 384,
+      "wall_s_reps": [
+        2.742,
+        2.853,
+        2.807
+      ],
+      "wall_s_median": 2.807,
+      "wall_s_iqr": 0.056,
+      "items_per_s_median": 3562.1,
+      "peak_rss_mb": 471.0,
+      "labels_sha16": "f74af7b9e80a1037",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 1.967,
+      "groups": 9437,
+      "singleton_groups": 9126,
+      "singleton_group_rate": 0.967,
+      "singleton_item_rate": 0.9126,
+      "size_mean": 1.06,
+      "size_median": 1.0,
+      "size_p90": 1.0,
+      "size_max": 4,
+      "coherence_pair_weighted": 0.6395,
+      "member_to_centroid_mean": 0.9892,
+      "nmi_vs_gt": 0.6004,
+      "ari_vs_gt": 0.0016
+    },
+    "syn-blobs-10000-d384__sklearn-partial__t0.5": {
+      "arm": {
+        "dataset": "syn-blobs-10000-d384",
+        "impl": "sklearn-partial",
+        "reps": 3,
+        "threshold": 0.5
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "blobs",
+        "n": 10000,
+        "dim": 384,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.11,
+      "n": 10000,
+      "dim": 384,
+      "wall_s_reps": [
+        2.078,
+        1.956,
+        1.958
+      ],
+      "wall_s_median": 1.958,
+      "wall_s_iqr": 0.061,
+      "items_per_s_median": 5108.5,
+      "peak_rss_mb": 525.3,
+      "labels_sha16": "f74af7b9e80a1037",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 2.029,
+      "groups": 9437,
+      "singleton_groups": 9126,
+      "singleton_group_rate": 0.967,
+      "singleton_item_rate": 0.9126,
+      "size_mean": 1.06,
+      "size_median": 1.0,
+      "size_p90": 1.0,
+      "size_max": 4,
+      "coherence_pair_weighted": 0.6395,
+      "member_to_centroid_mean": 0.9892,
+      "nmi_vs_gt": 0.6004,
+      "ari_vs_gt": 0.0016
+    },
+    "syn-blobs-10000-d768__ours__w256": {
+      "arm": {
+        "dataset": "syn-blobs-10000-d768",
+        "impl": "ours",
+        "reps": 3,
+        "wave": 256
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "blobs",
+        "n": 10000,
+        "dim": 768,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.39,
+      "n": 10000,
+      "dim": 768,
+      "wall_s_reps": [
+        1.471,
+        1.542,
+        1.358
+      ],
+      "wall_s_median": 1.471,
+      "wall_s_iqr": 0.092,
+      "items_per_s_median": 6799.0,
+      "peak_rss_mb": 555.8,
+      "labels_sha16": "56b51e6885bd99d6",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 0.0,
+      "groups": 1302,
+      "singleton_groups": 123,
+      "singleton_group_rate": 0.0945,
+      "singleton_item_rate": 0.0123,
+      "size_mean": 7.68,
+      "size_median": 6.0,
+      "size_p90": 16.0,
+      "size_max": 16,
+      "coherence_pair_weighted": 0.6138,
+      "member_to_centroid_mean": 0.8143,
+      "nmi_vs_gt": 0.7235,
+      "ari_vs_gt": 0.1009
+    },
+    "syn-blobs-10000-d768__sklearn-fit__t0.5": {
+      "arm": {
+        "dataset": "syn-blobs-10000-d768",
+        "impl": "sklearn-fit",
+        "reps": 3,
+        "threshold": 0.5
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "blobs",
+        "n": 10000,
+        "dim": 768,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.23,
+      "n": 10000,
+      "dim": 768,
+      "wall_s_reps": [
+        5.055,
+        4.966,
+        4.966
+      ],
+      "wall_s_median": 4.966,
+      "wall_s_iqr": 0.045,
+      "items_per_s_median": 2013.6,
+      "peak_rss_mb": 708.2,
+      "labels_sha16": "9d246e101adddac4",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 3.783,
+      "groups": 9509,
+      "singleton_groups": 9238,
+      "singleton_group_rate": 0.9715,
+      "singleton_item_rate": 0.9238,
+      "size_mean": 1.052,
+      "size_median": 1.0,
+      "size_p90": 1.0,
+      "size_max": 3,
+      "coherence_pair_weighted": 0.6328,
+      "member_to_centroid_mean": 0.9904,
+      "nmi_vs_gt": 0.5999,
+      "ari_vs_gt": 0.0014
+    },
+    "syn-blobs-10000-d768__sklearn-partial__t0.5": {
+      "arm": {
+        "dataset": "syn-blobs-10000-d768",
+        "impl": "sklearn-partial",
+        "reps": 3,
+        "threshold": 0.5
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "blobs",
+        "n": 10000,
+        "dim": 768,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.37,
+      "n": 10000,
+      "dim": 768,
+      "wall_s_reps": [
+        3.287,
+        3.528,
+        3.536
+      ],
+      "wall_s_median": 3.528,
+      "wall_s_iqr": 0.124,
+      "items_per_s_median": 2834.6,
+      "peak_rss_mb": 878.8,
+      "labels_sha16": "9d246e101adddac4",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 3.818,
+      "groups": 9509,
+      "singleton_groups": 9238,
+      "singleton_group_rate": 0.9715,
+      "singleton_item_rate": 0.9238,
+      "size_mean": 1.052,
+      "size_median": 1.0,
+      "size_p90": 1.0,
+      "size_max": 3,
+      "coherence_pair_weighted": 0.6328,
+      "member_to_centroid_mean": 0.9904,
+      "nmi_vs_gt": 0.5999,
+      "ari_vs_gt": 0.0014
+    },
+    "syn-blobs-100000-d384__ours__w256": {
+      "arm": {
+        "dataset": "syn-blobs-100000-d384",
+        "impl": "ours",
+        "reps": 2,
+        "wave": 256
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "blobs",
+        "n": 100000,
+        "dim": 384,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 1.91,
+      "n": 100000,
+      "dim": 384,
+      "wall_s_reps": [
+        44.778,
+        42.335
+      ],
+      "wall_s_median": 43.556,
+      "wall_s_iqr": 2.443,
+      "items_per_s_median": 2295.9,
+      "peak_rss_mb": 1318.0,
+      "labels_sha16": "77ac171a9015243b",
+      "reps_labels_identical": true,
+      "groups": 18824,
+      "singleton_groups": 2112,
+      "singleton_group_rate": 0.1122,
+      "singleton_item_rate": 0.0211,
+      "size_mean": 5.312,
+      "size_median": 4.0,
+      "size_p90": 16.0,
+      "size_max": 16,
+      "coherence_pair_weighted": 0.6203,
+      "member_to_centroid_mean": 0.8299,
+      "nmi_vs_gt": 0.5828,
+      "ari_vs_gt": 0.0084
+    },
+    "syn-blobs-100000-d384__sklearn-fit__t0.5": {
+      "arm": {
+        "dataset": "syn-blobs-100000-d384",
+        "impl": "sklearn-fit",
+        "reps": 2,
+        "threshold": 0.5
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "blobs",
+        "n": 100000,
+        "dim": 384,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 2.32,
+      "n": 100000,
+      "dim": 384,
+      "wall_s_reps": [
+        209.31,
+        212.891
+      ],
+      "wall_s_median": 211.101,
+      "wall_s_iqr": 3.581,
+      "items_per_s_median": 473.7,
+      "peak_rss_mb": 2334.9,
+      "labels_sha16": "e82f606848392337",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 201.061,
+      "groups": 94303,
+      "singleton_groups": 91297,
+      "singleton_group_rate": 0.9681,
+      "singleton_item_rate": 0.913,
+      "size_mean": 1.06,
+      "size_median": 1.0,
+      "size_p90": 1.0,
+      "size_max": 4,
+      "coherence_pair_weighted": 0.645,
+      "member_to_centroid_mean": 0.9892,
+      "nmi_vs_gt": 0.5103,
+      "ari_vs_gt": 0.0002
+    },
+    "syn-blobs-100000-d384__sklearn-partial__t0.5": {
+      "arm": {
+        "dataset": "syn-blobs-100000-d384",
+        "impl": "sklearn-partial",
+        "reps": 2,
+        "threshold": 0.5
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "blobs",
+        "n": 100000,
+        "dim": 384,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 1.95,
+      "n": 100000,
+      "dim": 384,
+      "wall_s_reps": [
+        135.179,
+        138.603
+      ],
+      "wall_s_median": 136.891,
+      "wall_s_iqr": 3.424,
+      "items_per_s_median": 730.5,
+      "peak_rss_mb": 2562.0,
+      "labels_sha16": "e82f606848392337",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 198.432,
+      "groups": 94303,
+      "singleton_groups": 91297,
+      "singleton_group_rate": 0.9681,
+      "singleton_item_rate": 0.913,
+      "size_mean": 1.06,
+      "size_median": 1.0,
+      "size_p90": 1.0,
+      "size_max": 4,
+      "coherence_pair_weighted": 0.645,
+      "member_to_centroid_mean": 0.9892,
+      "nmi_vs_gt": 0.5103,
+      "ari_vs_gt": 0.0002
+    },
+    "syn-blobs-1000000-d384__ours__w256": {
+      "arm": {
+        "dataset": "syn-blobs-1000000-d384",
+        "impl": "ours",
+        "reps": 1,
+        "wave": 256
+      },
+      "status": "memory_error",
+      "error": "MemoryError: Unable to allocate 2.86 GiB for an array with shape (1000000, 384) and data type float64",
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      }
+    },
+    "syn-blobs-1000000-d384__sklearn-fit__t0.5": {
+      "arm": {
+        "dataset": "syn-blobs-1000000-d384",
+        "impl": "sklearn-fit",
+        "reps": 1,
+        "threshold": 0.5
+      },
+      "status": "memory_error",
+      "error": "MemoryError: Unable to allocate 153. KiB for an array with shape (51, 384) and data type float64",
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      }
+    },
+    "syn-dup-10000-d384__ours__w256": {
+      "arm": {
+        "dataset": "syn-dup-10000-d384",
+        "impl": "ours",
+        "reps": 3,
+        "wave": 256
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "duplicates",
+        "n": 10000,
+        "dim": 384,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.14,
+      "n": 10000,
+      "dim": 384,
+      "wall_s_reps": [
+        1.387,
+        1.431,
+        1.309
+      ],
+      "wall_s_median": 1.387,
+      "wall_s_iqr": 0.061,
+      "items_per_s_median": 7211.9,
+      "peak_rss_mb": 420.3,
+      "labels_sha16": "aa543d89c575f6f2",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 0.0,
+      "groups": 4326,
+      "singleton_groups": 1382,
+      "singleton_group_rate": 0.3195,
+      "singleton_item_rate": 0.1382,
+      "size_mean": 2.312,
+      "size_median": 2.0,
+      "size_p90": 4.0,
+      "size_max": 8,
+      "coherence_pair_weighted": 1.0,
+      "member_to_centroid_mean": 1.0,
+      "nmi_vs_gt": 1.0,
+      "ari_vs_gt": 1.0
+    },
+    "syn-dup-10000-d384__sklearn-fit__t0.5": {
+      "arm": {
+        "dataset": "syn-dup-10000-d384",
+        "impl": "sklearn-fit",
+        "reps": 3,
+        "threshold": 0.5
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "duplicates",
+        "n": 10000,
+        "dim": 384,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.06,
+      "n": 10000,
+      "dim": 384,
+      "wall_s_reps": [
+        1.671,
+        1.818,
+        1.718
+      ],
+      "wall_s_median": 1.718,
+      "wall_s_iqr": 0.074,
+      "items_per_s_median": 5819.4,
+      "peak_rss_mb": 358.5,
+      "labels_sha16": "a80333788883b290",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 1.207,
+      "groups": 4312,
+      "singleton_groups": 1368,
+      "singleton_group_rate": 0.3173,
+      "singleton_item_rate": 0.1368,
+      "size_mean": 2.319,
+      "size_median": 2.0,
+      "size_p90": 4.0,
+      "size_max": 8,
+      "coherence_pair_weighted": 0.9934,
+      "member_to_centroid_mean": 0.9989,
+      "nmi_vs_gt": 0.9998,
+      "ari_vs_gt": 0.9961
+    },
+    "syn-dup-10000-d384__sklearn-partial__t0.5": {
+      "arm": {
+        "dataset": "syn-dup-10000-d384",
+        "impl": "sklearn-partial",
+        "reps": 3,
+        "threshold": 0.5
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "duplicates",
+        "n": 10000,
+        "dim": 384,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.14,
+      "n": 10000,
+      "dim": 384,
+      "wall_s_reps": [
+        1.392,
+        1.466,
+        1.395
+      ],
+      "wall_s_median": 1.395,
+      "wall_s_iqr": 0.037,
+      "items_per_s_median": 7168.4,
+      "peak_rss_mb": 396.9,
+      "labels_sha16": "a80333788883b290",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 1.185,
+      "groups": 4312,
+      "singleton_groups": 1368,
+      "singleton_group_rate": 0.3173,
+      "singleton_item_rate": 0.1368,
+      "size_mean": 2.319,
+      "size_median": 2.0,
+      "size_p90": 4.0,
+      "size_max": 8,
+      "coherence_pair_weighted": 0.9934,
+      "member_to_centroid_mean": 0.9989,
+      "nmi_vs_gt": 0.9998,
+      "ari_vs_gt": 0.9961
+    },
+    "syn-uniform-10000-d384__ours__w256": {
+      "arm": {
+        "dataset": "syn-uniform-10000-d384",
+        "impl": "ours",
+        "reps": 3,
+        "wave": 256
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "uniform",
+        "n": 10000,
+        "dim": 384,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.14,
+      "n": 10000,
+      "dim": 384,
+      "wall_s_reps": [
+        2.68,
+        2.638,
+        2.437
+      ],
+      "wall_s_median": 2.638,
+      "wall_s_iqr": 0.121,
+      "items_per_s_median": 3791.3,
+      "peak_rss_mb": 551.6,
+      "labels_sha16": "9e1c19b3fdc18541",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 0.0,
+      "groups": 10000,
+      "singleton_groups": 10000,
+      "singleton_group_rate": 1.0,
+      "singleton_item_rate": 1.0,
+      "size_mean": 1.0,
+      "size_median": 1.0,
+      "size_p90": 1.0,
+      "size_max": 1,
+      "coherence_pair_weighted": null,
+      "member_to_centroid_mean": 1.0
+    },
+    "syn-uniform-10000-d384__sklearn-fit__t0.5": {
+      "arm": {
+        "dataset": "syn-uniform-10000-d384",
+        "impl": "sklearn-fit",
+        "reps": 3,
+        "threshold": 0.5
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "uniform",
+        "n": 10000,
+        "dim": 384,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.17,
+      "n": 10000,
+      "dim": 384,
+      "wall_s_reps": [
+        2.84,
+        2.941,
+        2.838
+      ],
+      "wall_s_median": 2.84,
+      "wall_s_iqr": 0.052,
+      "items_per_s_median": 3521.5,
+      "peak_rss_mb": 427.6,
+      "labels_sha16": "f41c4a2b41ecc4ed",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 2.133,
+      "groups": 10000,
+      "singleton_groups": 10000,
+      "singleton_group_rate": 1.0,
+      "singleton_item_rate": 1.0,
+      "size_mean": 1.0,
+      "size_median": 1.0,
+      "size_p90": 1.0,
+      "size_max": 1,
+      "coherence_pair_weighted": null,
+      "member_to_centroid_mean": 1.0
+    },
+    "syn-uniform-10000-d384__sklearn-partial__t0.5": {
+      "arm": {
+        "dataset": "syn-uniform-10000-d384",
+        "impl": "sklearn-partial",
+        "reps": 3,
+        "threshold": 0.5
+      },
+      "dataset_spec": {
+        "kind": "synthetic",
+        "dist": "uniform",
+        "n": 10000,
+        "dim": 384,
+        "seed": 20261125
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.1,
+      "n": 10000,
+      "dim": 384,
+      "wall_s_reps": [
+        2.04,
+        1.978,
+        2.091
+      ],
+      "wall_s_median": 2.04,
+      "wall_s_iqr": 0.057,
+      "items_per_s_median": 4903.0,
+      "peak_rss_mb": 510.2,
+      "labels_sha16": "f41c4a2b41ecc4ed",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 2.129,
+      "groups": 10000,
+      "singleton_groups": 10000,
+      "singleton_group_rate": 1.0,
+      "singleton_item_rate": 1.0,
+      "size_mean": 1.0,
+      "size_median": 1.0,
+      "size_p90": 1.0,
+      "size_max": 1,
+      "coherence_pair_weighted": null,
+      "member_to_centroid_mean": 1.0
+    },
+    "wordnet-1000__ours__w256": {
+      "arm": {
+        "dataset": "wordnet-1000",
+        "impl": "ours",
+        "reps": 3,
+        "wave": 256
+      },
+      "dataset_spec": {
+        "kind": "wordnet",
+        "n": 1000
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.01,
+      "n": 1000,
+      "dim": 384,
+      "wall_s_reps": [
+        0.058,
+        0.056,
+        0.06
+      ],
+      "wall_s_median": 0.058,
+      "wall_s_iqr": 0.002,
+      "items_per_s_median": 17292.3,
+      "peak_rss_mb": 160.7,
+      "labels_sha16": "f72b9f38c3c04cfa",
+      "reps_labels_identical": true,
+      "groups": 353,
+      "singleton_groups": 140,
+      "singleton_group_rate": 0.3966,
+      "singleton_item_rate": 0.14,
+      "size_mean": 2.833,
+      "size_median": 2.0,
+      "size_p90": 6.0,
+      "size_max": 16,
+      "coherence_pair_weighted": 0.5387,
+      "member_to_centroid_mean": 0.8371
+    },
+    "wordnet-1000__sklearn-fit__t0.5": {
+      "arm": {
+        "dataset": "wordnet-1000",
+        "impl": "sklearn-fit",
+        "reps": 3,
+        "threshold": 0.5
+      },
+      "dataset_spec": {
+        "kind": "wordnet",
+        "n": 1000
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.04,
+      "n": 1000,
+      "dim": 384,
+      "wall_s_reps": [
+        0.055,
+        0.057,
+        0.053
+      ],
+      "wall_s_median": 0.055,
+      "wall_s_iqr": 0.002,
+      "items_per_s_median": 18235.4,
+      "peak_rss_mb": 178.1,
+      "labels_sha16": "4fa754c78d5b6712",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 0.014,
+      "groups": 607,
+      "singleton_groups": 352,
+      "singleton_group_rate": 0.5799,
+      "singleton_item_rate": 0.352,
+      "size_mean": 1.647,
+      "size_median": 1.0,
+      "size_p90": 3.0,
+      "size_max": 15,
+      "coherence_pair_weighted": 0.7056,
+      "member_to_centroid_mean": 0.9351
+    },
+    "wordnet-1000__sklearn-partial__t0.5": {
+      "arm": {
+        "dataset": "wordnet-1000",
+        "impl": "sklearn-partial",
+        "reps": 3,
+        "threshold": 0.5
+      },
+      "dataset_spec": {
+        "kind": "wordnet",
+        "n": 1000
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.0,
+      "n": 1000,
+      "dim": 384,
+      "wall_s_reps": [
+        0.051,
+        0.052,
+        0.05
+      ],
+      "wall_s_median": 0.051,
+      "wall_s_iqr": 0.001,
+      "items_per_s_median": 19509.7,
+      "peak_rss_mb": 179.4,
+      "labels_sha16": "4fa754c78d5b6712",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 0.014,
+      "groups": 607,
+      "singleton_groups": 352,
+      "singleton_group_rate": 0.5799,
+      "singleton_item_rate": 0.352,
+      "size_mean": 1.647,
+      "size_median": 1.0,
+      "size_p90": 3.0,
+      "size_max": 15,
+      "coherence_pair_weighted": 0.7056,
+      "member_to_centroid_mean": 0.9351
+    },
+    "wordnet-31388__ours__w1": {
+      "arm": {
+        "dataset": "wordnet-31388",
+        "impl": "ours",
+        "reps": 1,
+        "wave": 1
+      },
+      "dataset_spec": {
+        "kind": "wordnet",
+        "n": 31388
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.21,
+      "n": 31388,
+      "dim": 384,
+      "wall_s_reps": [
+        147.803
+      ],
+      "wall_s_median": 147.803,
+      "wall_s_iqr": 0.0,
+      "items_per_s_median": 212.4,
+      "peak_rss_mb": 506.6,
+      "labels_sha16": "b9af0c5552462e4f",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 0.008,
+      "groups": 4497,
+      "singleton_groups": 711,
+      "singleton_group_rate": 0.1581,
+      "singleton_item_rate": 0.0227,
+      "size_mean": 6.98,
+      "size_median": 7.0,
+      "size_p90": 14.0,
+      "size_max": 16,
+      "coherence_pair_weighted": 0.4979,
+      "member_to_centroid_mean": 0.7541
+    },
+    "wordnet-31388__ours__w1024": {
+      "arm": {
+        "dataset": "wordnet-31388",
+        "impl": "ours",
+        "reps": 3,
+        "wave": 1024
+      },
+      "dataset_spec": {
+        "kind": "wordnet",
+        "n": 31388
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.14,
+      "n": 31388,
+      "dim": 384,
+      "wall_s_reps": [
+        5.119,
+        4.861,
+        4.824
+      ],
+      "wall_s_median": 4.861,
+      "wall_s_iqr": 0.147,
+      "items_per_s_median": 6457.5,
+      "peak_rss_mb": 834.8,
+      "labels_sha16": "caa4de275a549fdf",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 0.0,
+      "groups": 4965,
+      "singleton_groups": 911,
+      "singleton_group_rate": 0.1835,
+      "singleton_item_rate": 0.029,
+      "size_mean": 6.322,
+      "size_median": 6.0,
+      "size_p90": 13.0,
+      "size_max": 16,
+      "coherence_pair_weighted": 0.506,
+      "member_to_centroid_mean": 0.7627
+    },
+    "wordnet-31388__ours__w256": {
+      "arm": {
+        "dataset": "wordnet-31388",
+        "impl": "ours",
+        "reps": 3,
+        "wave": 256
+      },
+      "dataset_spec": {
+        "kind": "wordnet",
+        "n": 31388
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.14,
+      "n": 31388,
+      "dim": 384,
+      "wall_s_reps": [
+        5.932,
+        5.073,
+        5.017
+      ],
+      "wall_s_median": 5.073,
+      "wall_s_iqr": 0.457,
+      "items_per_s_median": 6186.8,
+      "peak_rss_mb": 507.7,
+      "labels_sha16": "a90120236358b123",
+      "reps_labels_identical": true,
+      "groups": 4796,
+      "singleton_groups": 881,
+      "singleton_group_rate": 0.1837,
+      "singleton_item_rate": 0.0281,
+      "size_mean": 6.545,
+      "size_median": 6.0,
+      "size_p90": 14.0,
+      "size_max": 16,
+      "coherence_pair_weighted": 0.5035,
+      "member_to_centroid_mean": 0.7597
+    },
+    "wordnet-31388__ours__w256__threads-default": {
+      "arm": {
+        "dataset": "wordnet-31388",
+        "impl": "ours",
+        "reps": 1,
+        "wave": 256,
+        "threads": "default"
+      },
+      "dataset_spec": {
+        "kind": "wordnet",
+        "n": 31388
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null
+        }
+      },
+      "status": "ok",
+      "load_s": 0.02,
+      "n": 31388,
+      "dim": 384,
+      "wall_s_reps": [
+        11.126
+      ],
+      "wall_s_median": 11.126,
+      "wall_s_iqr": 0.0,
+      "items_per_s_median": 2821.1,
+      "peak_rss_mb": 513.0,
+      "labels_sha16": "a90120236358b123",
+      "reps_labels_identical": true,
+      "groups": 4796,
+      "singleton_groups": 881,
+      "singleton_group_rate": 0.1837,
+      "singleton_item_rate": 0.0281,
+      "size_mean": 6.545,
+      "size_median": 6.0,
+      "size_p90": 14.0,
+      "size_max": 16,
+      "coherence_pair_weighted": 0.5035,
+      "member_to_centroid_mean": 0.7597
+    },
+    "wordnet-31388__ours__w32": {
+      "arm": {
+        "dataset": "wordnet-31388",
+        "impl": "ours",
+        "reps": 3,
+        "wave": 32
+      },
+      "dataset_spec": {
+        "kind": "wordnet",
+        "n": 31388
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.13,
+      "n": 31388,
+      "dim": 384,
+      "wall_s_reps": [
+        9.95,
+        9.884,
+        9.635
+      ],
+      "wall_s_median": 9.884,
+      "wall_s_iqr": 0.158,
+      "items_per_s_median": 3175.6,
+      "peak_rss_mb": 719.9,
+      "labels_sha16": "f73e92a9180d615d",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 0.0,
+      "groups": 4689,
+      "singleton_groups": 864,
+      "singleton_group_rate": 0.1843,
+      "singleton_item_rate": 0.0275,
+      "size_mean": 6.694,
+      "size_median": 6.0,
+      "size_p90": 14.0,
+      "size_max": 16,
+      "coherence_pair_weighted": 0.5017,
+      "member_to_centroid_mean": 0.7577
+    },
+    "wordnet-31388__sklearn-fit__t0.5": {
+      "arm": {
+        "dataset": "wordnet-31388",
+        "impl": "sklearn-fit",
+        "reps": 3,
+        "threshold": 0.5
+      },
+      "dataset_spec": {
+        "kind": "wordnet",
+        "n": 31388
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.18,
+      "n": 31388,
+      "dim": 384,
+      "wall_s_reps": [
+        15.618,
+        15.488,
+        15.63
+      ],
+      "wall_s_median": 15.618,
+      "wall_s_iqr": 0.071,
+      "items_per_s_median": 2009.7,
+      "peak_rss_mb": 764.3,
+      "labels_sha16": "18582b87dd402aa7",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 13.506,
+      "groups": 20312,
+      "singleton_groups": 13423,
+      "singleton_group_rate": 0.6608,
+      "singleton_item_rate": 0.4276,
+      "size_mean": 1.545,
+      "size_median": 1.0,
+      "size_p90": 3.0,
+      "size_max": 45,
+      "coherence_pair_weighted": 0.7183,
+      "member_to_centroid_mean": 0.9443
+    },
+    "wordnet-31388__sklearn-fit__t0.5__threads-default": {
+      "arm": {
+        "dataset": "wordnet-31388",
+        "impl": "sklearn-fit",
+        "reps": 1,
+        "threshold": 0.5,
+        "threads": "default"
+      },
+      "dataset_spec": {
+        "kind": "wordnet",
+        "n": 31388
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null
+        }
+      },
+      "status": "ok",
+      "load_s": 0.09,
+      "n": 31388,
+      "dim": 384,
+      "wall_s_reps": [
+        13.388
+      ],
+      "wall_s_median": 13.388,
+      "wall_s_iqr": 0.0,
+      "items_per_s_median": 2344.5,
+      "peak_rss_mb": 486.0,
+      "labels_sha16": "18582b87dd402aa7",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 9.922,
+      "groups": 20312,
+      "singleton_groups": 13423,
+      "singleton_group_rate": 0.6608,
+      "singleton_item_rate": 0.4276,
+      "size_mean": 1.545,
+      "size_median": 1.0,
+      "size_p90": 3.0,
+      "size_max": 45,
+      "coherence_pair_weighted": 0.7183,
+      "member_to_centroid_mean": 0.9443
+    },
+    "wordnet-31388__sklearn-fit__t0.865": {
+      "arm": {
+        "dataset": "wordnet-31388",
+        "impl": "sklearn-fit",
+        "reps": 3,
+        "threshold": 0.865
+      },
+      "dataset_spec": {
+        "kind": "wordnet",
+        "n": 31388
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.2,
+      "n": 31388,
+      "dim": 384,
+      "wall_s_reps": [
+        4.896,
+        4.835,
+        4.852
+      ],
+      "wall_s_median": 4.852,
+      "wall_s_iqr": 0.031,
+      "items_per_s_median": 6469.7,
+      "peak_rss_mb": 407.2,
+      "labels_sha16": "c96baa1ebef9eec0",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 3.484,
+      "groups": 5278,
+      "singleton_groups": 1945,
+      "singleton_group_rate": 0.3685,
+      "singleton_item_rate": 0.062,
+      "size_mean": 5.947,
+      "size_median": 2.0,
+      "size_p90": 12.0,
+      "size_max": 291,
+      "coherence_pair_weighted": 0.3733,
+      "member_to_centroid_mean": 0.7413
+    },
+    "wordnet-31388__sklearn-partial__t0.5": {
+      "arm": {
+        "dataset": "wordnet-31388",
+        "impl": "sklearn-partial",
+        "reps": 3,
+        "threshold": 0.5
+      },
+      "dataset_spec": {
+        "kind": "wordnet",
+        "n": 31388
+      },
+      "environment": {
+        "cpu": "AMD EPYC 9D25 126-Core Processor",
+        "cpu_count": 4,
+        "ram_gb": 7.7,
+        "os": "Linux-7.0.0-44-generic-x86_64-with-glibc2.39",
+        "python": "3.12.3",
+        "numpy": "2.5.5",
+        "sklearn": "1.9.1",
+        "threads_env": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1"
+        }
+      },
+      "status": "ok",
+      "load_s": 0.02,
+      "n": 31388,
+      "dim": 384,
+      "wall_s_reps": [
+        10.184,
+        10.227,
+        10.408
+      ],
+      "wall_s_median": 10.227,
+      "wall_s_iqr": 0.112,
+      "items_per_s_median": 3069.2,
+      "peak_rss_mb": 823.0,
+      "labels_sha16": "18582b87dd402aa7",
+      "reps_labels_identical": true,
+      "predict_s_last_rep": 13.545,
+      "groups": 20312,
+      "singleton_groups": 13423,
+      "singleton_group_rate": 0.6608,
+      "singleton_item_rate": 0.4276,
+      "size_mean": 1.545,
+      "size_median": 1.0,
+      "size_p90": 3.0,
+      "size_max": 45,
+      "coherence_pair_weighted": 0.7183,
+      "member_to_centroid_mean": 0.9443
+    }
+  }
+}

@@ -1,0 +1,476 @@
+{
+ "comparisons": {
+  "lexnames": {
+   "original_groups": 41,
+   "our_groups": 5209,
+   "purity_ours_vs_original": 0.5282273480310947,
+   "purity_original_vs_ours": 0.012871160953230534,
+   "nmi": 0.3727152842121552,
+   "ari": 0.0026371569946083777
+  },
+  "hypernym_depth2": {
+   "original_groups": 1375,
+   "our_groups": 5209,
+   "purity_ours_vs_original": 0.5376895628902766,
+   "purity_original_vs_ours": 0.057856505670957056,
+   "nmi": 0.37314540718395117,
+   "ari": 0.0011571158592271692
+  },
+  "hypernym_depth3": {
+   "original_groups": 3155,
+   "our_groups": 5209,
+   "purity_ours_vs_original": 0.4888492417484389,
+   "purity_original_vs_ours": 0.12342296419013636,
+   "nmi": 0.4853181950757786,
+   "ari": 0.001477978424908791
+  }
+ },
+ "alignment": {
+  "rows": 31388,
+  "chunk_recompute_match": "25/25",
+  "reembed_cosine_min": 0.9999999999999993,
+  "reembed_cosine_mean": 0.9999999999999997
+ },
+ "depth_distribution_selected": {
+  "0": 9,
+  "1": 265,
+  "2": 1101,
+  "3": 1780,
+  "4": 2728,
+  "5": 3955,
+  "6": 4852,
+  "7": 4604,
+  "8": 3945,
+  "9": 3195,
+  "10": 2121,
+  "11": 1236,
+  "12": 729,
+  "13": 387,
+  "14": 224,
+  "15": 136,
+  "16": 93,
+  "17": 24,
+  "18": 3,
+  "19": 1
+ },
+ "birch": {
+  "config": {
+   "min_similarity": 0.5,
+   "max_dispersion": 0.5,
+   "max_children": 16,
+   "candidate_count": 5,
+   "wave_size": 256
+  },
+  "groups": 5209,
+  "wall_seconds": 16.19,
+  "group_size_max": 16,
+  "group_size_mean": 6.025724707237473,
+  "singletons": 1133
+ },
+ "per_lexname": {
+  "noun.Tops": {
+   "synsets": 47,
+   "clusters_spanned": 34,
+   "largest_cluster_share": 0.06382978723404255,
+   "effective_clusters": 30.978879407785644
+  },
+  "noun.act": {
+   "synsets": 2705,
+   "clusters_spanned": 1449,
+   "largest_cluster_share": 0.004805914972273568,
+   "effective_clusters": 1165.7101275798266
+  },
+  "noun.animal": {
+   "synsets": 973,
+   "clusters_spanned": 412,
+   "largest_cluster_share": 0.014388489208633094,
+   "effective_clusters": 279.2772373092631
+  },
+  "noun.artifact": {
+   "synsets": 3967,
+   "clusters_spanned": 1578,
+   "largest_cluster_share": 0.0037811948575749935,
+   "effective_clusters": 1144.8319890488126
+  },
+  "noun.attribute": {
+   "synsets": 1627,
+   "clusters_spanned": 843,
+   "largest_cluster_share": 0.006760909649661954,
+   "effective_clusters": 642.982139724828
+  },
+  "noun.body": {
+   "synsets": 484,
+   "clusters_spanned": 236,
+   "largest_cluster_share": 0.01859504132231405,
+   "effective_clusters": 182.62616169242335
+  },
+  "noun.cognition": {
+   "synsets": 1337,
+   "clusters_spanned": 756,
+   "largest_cluster_share": 0.008975317875841436,
+   "effective_clusters": 605.6752776987589
+  },
+  "noun.communication": {
+   "synsets": 2021,
+   "clusters_spanned": 993,
+   "largest_cluster_share": 0.007916872835230085,
+   "effective_clusters": 745.9597338998786
+  },
+  "noun.event": {
+   "synsets": 472,
+   "clusters_spanned": 325,
+   "largest_cluster_share": 0.019067796610169493,
+   "effective_clusters": 278.9633787475543
+  },
+  "noun.feeling": {
+   "synsets": 142,
+   "clusters_spanned": 92,
+   "largest_cluster_share": 0.035211267605633804,
+   "effective_clusters": 79.66746439427381
+  },
+  "noun.food": {
+   "synsets": 942,
+   "clusters_spanned": 369,
+   "largest_cluster_share": 0.01592356687898089,
+   "effective_clusters": 258.1394844287247
+  },
+  "noun.group": {
+   "synsets": 1043,
+   "clusters_spanned": 556,
+   "largest_cluster_share": 0.010546500479386385,
+   "effective_clusters": 424.4427555640548
+  },
+  "noun.location": {
+   "synsets": 449,
+   "clusters_spanned": 269,
+   "largest_cluster_share": 0.022271714922048998,
+   "effective_clusters": 215.69966231298912
+  },
+  "noun.motive": {
+   "synsets": 23,
+   "clusters_spanned": 17,
+   "largest_cluster_share": 0.21739130434782608,
+   "effective_clusters": 14.045740096593802
+  },
+  "noun.object": {
+   "synsets": 329,
+   "clusters_spanned": 224,
+   "largest_cluster_share": 0.02127659574468085,
+   "effective_clusters": 189.25621168873212
+  },
+  "noun.person": {
+   "synsets": 1791,
+   "clusters_spanned": 952,
+   "largest_cluster_share": 0.0072585147962032385,
+   "effective_clusters": 708.7956190519475
+  },
+  "noun.phenomenon": {
+   "synsets": 325,
+   "clusters_spanned": 195,
+   "largest_cluster_share": 0.033846153846153845,
+   "effective_clusters": 151.28875988583448
+  },
+  "noun.plant": {
+   "synsets": 1568,
+   "clusters_spanned": 519,
+   "largest_cluster_share": 0.01020408163265306,
+   "effective_clusters": 359.43933073939303
+  },
+  "noun.possession": {
+   "synsets": 443,
+   "clusters_spanned": 236,
+   "largest_cluster_share": 0.022573363431151242,
+   "effective_clusters": 184.46152650857195
+  },
+  "noun.process": {
+   "synsets": 322,
+   "clusters_spanned": 225,
+   "largest_cluster_share": 0.027950310559006212,
+   "effective_clusters": 187.44327295181878
+  },
+  "noun.quantity": {
+   "synsets": 421,
+   "clusters_spanned": 229,
+   "largest_cluster_share": 0.030878859857482184,
+   "effective_clusters": 160.26559083587128
+  },
+  "noun.relation": {
+   "synsets": 237,
+   "clusters_spanned": 134,
+   "largest_cluster_share": 0.05485232067510549,
+   "effective_clusters": 99.33507036068842
+  },
+  "noun.shape": {
+   "synsets": 173,
+   "clusters_spanned": 116,
+   "largest_cluster_share": 0.04046242774566474,
+   "effective_clusters": 94.67480664687385
+  },
+  "noun.state": {
+   "synsets": 937,
+   "clusters_spanned": 597,
+   "largest_cluster_share": 0.011739594450373533,
+   "effective_clusters": 487.1205256101745
+  },
+  "noun.substance": {
+   "synsets": 843,
+   "clusters_spanned": 448,
+   "largest_cluster_share": 0.0166073546856465,
+   "effective_clusters": 337.33335587690254
+  },
+  "noun.time": {
+   "synsets": 489,
+   "clusters_spanned": 208,
+   "largest_cluster_share": 0.024539877300613498,
+   "effective_clusters": 150.58101670441263
+  },
+  "verb.body": {
+   "synsets": 253,
+   "clusters_spanned": 186,
+   "largest_cluster_share": 0.019762845849802372,
+   "effective_clusters": 164.82570211032638
+  },
+  "verb.change": {
+   "synsets": 1256,
+   "clusters_spanned": 652,
+   "largest_cluster_share": 0.00875796178343949,
+   "effective_clusters": 507.19304370154003
+  },
+  "verb.cognition": {
+   "synsets": 430,
+   "clusters_spanned": 268,
+   "largest_cluster_share": 0.023255813953488372,
+   "effective_clusters": 218.19938556700177
+  },
+  "verb.communication": {
+   "synsets": 770,
+   "clusters_spanned": 451,
+   "largest_cluster_share": 0.011688311688311689,
+   "effective_clusters": 368.967598328199
+  },
+  "verb.competition": {
+   "synsets": 247,
+   "clusters_spanned": 184,
+   "largest_cluster_share": 0.020242914979757085,
+   "effective_clusters": 166.51717490024595
+  },
+  "verb.consumption": {
+   "synsets": 128,
+   "clusters_spanned": 92,
+   "largest_cluster_share": 0.0625,
+   "effective_clusters": 74.20824295172557
+  },
+  "verb.contact": {
+   "synsets": 990,
+   "clusters_spanned": 560,
+   "largest_cluster_share": 0.00909090909090909,
+   "effective_clusters": 456.4115061021209
+  },
+  "verb.creation": {
+   "synsets": 335,
+   "clusters_spanned": 220,
+   "largest_cluster_share": 0.01791044776119403,
+   "effective_clusters": 187.3752600828571
+  },
+  "verb.emotion": {
+   "synsets": 167,
+   "clusters_spanned": 117,
+   "largest_cluster_share": 0.041916167664670656,
+   "effective_clusters": 99.75113217691519
+  },
+  "verb.motion": {
+   "synsets": 781,
+   "clusters_spanned": 380,
+   "largest_cluster_share": 0.012804097311139564,
+   "effective_clusters": 298.5197476323102
+  },
+  "verb.perception": {
+   "synsets": 257,
+   "clusters_spanned": 177,
+   "largest_cluster_share": 0.03501945525291829,
+   "effective_clusters": 146.49055734796943
+  },
+  "verb.possession": {
+   "synsets": 444,
+   "clusters_spanned": 284,
+   "largest_cluster_share": 0.018018018018018018,
+   "effective_clusters": 236.4974762574803
+  },
+  "verb.social": {
+   "synsets": 640,
+   "clusters_spanned": 439,
+   "largest_cluster_share": 0.015625,
+   "effective_clusters": 380.9647041657148
+  },
+  "verb.stative": {
+   "synsets": 534,
+   "clusters_spanned": 350,
+   "largest_cluster_share": 0.018726591760299626,
+   "effective_clusters": 299.7671938365656
+  },
+  "verb.weather": {
+   "synsets": 46,
+   "clusters_spanned": 38,
+   "largest_cluster_share": 0.06521739130434782,
+   "effective_clusters": 35.33227335813389
+  }
+ },
+ "mismatch_count_vs_lexname": 14808,
+ "mismatch_examples": [
+  {
+   "synset_id": "00056644-v",
+   "own_lexname": "verb.body",
+   "cluster": 0,
+   "cluster_majority_lexname": "noun.person",
+   "cluster_size": 16,
+   "text": "To give birth is a way to produce. To give birth is to cause to be born. It is also called deliver, bear and birth."
+  },
+  {
+   "synset_id": "00522618-n",
+   "own_lexname": "noun.act",
+   "cluster": 48,
+   "cluster_majority_lexname": "noun.communication",
+   "cluster_size": 16,
+   "text": "A presentation is a show. The presentation is a show or display; the act of presenting something to sight or view. It is also called presentment and demonstration."
+  },
+  {
+   "synset_id": "00536769-n",
+   "own_lexname": "noun.act",
+   "cluster": 70,
+   "cluster_majority_lexname": "verb.motion",
+   "cluster_size": 16,
+   "text": "An one-step is a ballroom dancing. The one-step is an early ballroom dance; precursor to the fox-trot."
+  },
+  {
+   "synset_id": "00904608-v",
+   "own_lexname": "verb.communication",
+   "cluster": 97,
+   "cluster_majority_lexname": "verb.contact",
+   "cluster_size": 16,
+   "text": "To wash one's hands is a way to absolve. To wash one's hands is to to absolve oneself of responsibility or future blame."
+  },
+  {
+   "synset_id": "02534046-v",
+   "own_lexname": "verb.social",
+   "cluster": 101,
+   "cluster_majority_lexname": "noun.act",
+   "cluster_size": 16,
+   "text": "To fail is a way to act. To fail is to be unsuccessful. It is also called go wrong and miscarry."
+  },
+  {
+   "synset_id": "02415985-v",
+   "own_lexname": "verb.social",
+   "cluster": 115,
+   "cluster_majority_lexname": "noun.act",
+   "cluster_size": 16,
+   "text": "To work is a way to exert. To work is to be employed. It is also called do work."
+  },
+  {
+   "synset_id": "00748704-v",
+   "own_lexname": "verb.communication",
+   "cluster": 119,
+   "cluster_majority_lexname": "noun.communication",
+   "cluster_size": 16,
+   "text": "To order is a way to request. To order is to give instructions to or direct somebody to do something with authority. It is also called tell, enjoin and say."
+  },
+  {
+   "synset_id": "02445887-v",
+   "own_lexname": "verb.social",
+   "cluster": 128,
+   "cluster_majority_lexname": "noun.act",
+   "cluster_size": 16,
+   "text": "To control is a way to direct. To control is to exercise authoritative control or power over. It is also called command."
+  },
+  {
+   "synset_id": "02746734-v",
+   "own_lexname": "verb.stative",
+   "cluster": 146,
+   "cluster_majority_lexname": "verb.contact",
+   "cluster_size": 16,
+   "text": "To hold one's own is a way to succeed. To hold one's own is to be sufficiently competent in a certain situation."
+  },
+  {
+   "synset_id": "05878479-n",
+   "own_lexname": "noun.cognition",
+   "cluster": 2878,
+   "cluster_majority_lexname": "noun.quantity",
+   "cluster_size": 16,
+   "text": "An unit is a whole. The unit is a single undivided whole."
+  },
+  {
+   "synset_id": "07021061-n",
+   "own_lexname": "noun.communication",
+   "cluster": 232,
+   "cluster_majority_lexname": "noun.act",
+   "cluster_size": 16,
+   "text": "A play is a dramatic composition. The play is a dramatic work intended for performance by actors on a stage. It is also called drama and dramatic play."
+  },
+  {
+   "synset_id": "00165622-n",
+   "own_lexname": "noun.act",
+   "cluster": 247,
+   "cluster_majority_lexname": "noun.communication",
+   "cluster_size": 16,
+   "text": "A call is a decision. The call is (sports) the decision made by an umpire or referee."
+  }
+ ],
+ "lexnames_most_split": [
+  {
+   "lexname": "noun.artifact",
+   "synsets": 3967,
+   "clusters_spanned": 1578,
+   "largest_cluster_share": 0.0037811948575749935,
+   "effective_clusters": 1144.8319890488126
+  },
+  {
+   "lexname": "noun.act",
+   "synsets": 2705,
+   "clusters_spanned": 1449,
+   "largest_cluster_share": 0.004805914972273568,
+   "effective_clusters": 1165.7101275798266
+  },
+  {
+   "lexname": "noun.communication",
+   "synsets": 2021,
+   "clusters_spanned": 993,
+   "largest_cluster_share": 0.007916872835230085,
+   "effective_clusters": 745.9597338998786
+  },
+  {
+   "lexname": "noun.person",
+   "synsets": 1791,
+   "clusters_spanned": 952,
+   "largest_cluster_share": 0.0072585147962032385,
+   "effective_clusters": 708.7956190519475
+  },
+  {
+   "lexname": "noun.attribute",
+   "synsets": 1627,
+   "clusters_spanned": 843,
+   "largest_cluster_share": 0.006760909649661954,
+   "effective_clusters": 642.982139724828
+  },
+  {
+   "lexname": "noun.cognition",
+   "synsets": 1337,
+   "clusters_spanned": 756,
+   "largest_cluster_share": 0.008975317875841436,
+   "effective_clusters": 605.6752776987589
+  },
+  {
+   "lexname": "verb.change",
+   "synsets": 1256,
+   "clusters_spanned": 652,
+   "largest_cluster_share": 0.00875796178343949,
+   "effective_clusters": 507.19304370154003
+  },
+  {
+   "lexname": "noun.state",
+   "synsets": 937,
+   "clusters_spanned": 597,
+   "largest_cluster_share": 0.011739594450373533,
+   "effective_clusters": 487.1205256101745
+  }
+ ],
+ "wall_seconds_total": 19.7
+}

@@ -1,0 +1,7 @@
+include README.md CHANGELOG.md CONTRIBUTING.md ANNOUNCE.md LICENSE
+include test_birch.py
+recursive-include benchmarks *.py *.md
+recursive-include results *.json
+global-exclude *.pyc
+global-exclude __pycache__
+prune results/frags-2026-11-25
